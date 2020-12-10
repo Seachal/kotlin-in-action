@@ -1,5 +1,8 @@
 package ch03.ex3_3_3_UtilityFunctionsAsExtensions2
 
+/**
+ * 工具函数
+ */
 fun <T> Collection<T>.joinToString(
         separator: String = ", ",
         prefix: String = "",

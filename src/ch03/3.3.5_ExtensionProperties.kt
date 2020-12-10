@@ -1,5 +1,9 @@
 package ch03.ex3_5_ExtensionProperties
 
+
+/**
+ * 扩展属性
+ */
 val String.lastChar: Char
     get() = get(length - 1)
 var StringBuilder.lastChar: Char

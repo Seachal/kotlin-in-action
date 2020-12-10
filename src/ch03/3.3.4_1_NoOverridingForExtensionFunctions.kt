@@ -1,5 +1,8 @@
 package ch03.ex3_4_1_NoOverridingForExtensionFunctions
 
+/**
+ * 不可重写扩展函数
+ */
 open class View {
     open fun click() = println("View clicked")
 }
