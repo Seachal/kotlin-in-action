@@ -14,5 +14,6 @@ class Button : View {
 
     override fun restoreState(state: State) { /*...*/ }
 
+//    嵌套类，不持有外部类的引用
     class ButtonState : State { /*...*/ }
 }
